@@ -1,0 +1,182 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "1449d528-6a1c-4c98-a8ec-b6d1ba05be53")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 198.12 26.67)
+		(size 73.66 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "51f270ad-e03d-4995-9420-b066106995c2")
+		(property "Sheetname" "MUX"
+			(at 198.12 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mux.kicad_sch"
+			(at 198.12 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "4bitalu"
+				(path "/1449d528-6a1c-4c98-a8ec-b6d1ba05be53"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 33.02 85.09)
+		(size 68.58 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "66e0a75a-d311-4576-87e0-712e0c1acaec")
+		(property "Sheetname" "Power"
+			(at 33.02 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 33.02 118.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "4bitalu"
+				(path "/1449d528-6a1c-4c98-a8ec-b6d1ba05be53"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 25.4)
+		(size 69.85 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "67cfe29a-26d2-4409-86e5-90897117580b")
+		(property "Sheetname" "Logical"
+			(at 114.3 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "logical.kicad_sch"
+			(at 114.3 52.6546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "4bitalu"
+				(path "/1449d528-6a1c-4c98-a8ec-b6d1ba05be53"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 25.4)
+		(size 63.5 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d60ce0c8-48cb-4802-881b-834e804b041c")
+		(property "Sheetname" "Addition"
+			(at 30.48 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "addition.kicad_sch"
+			(at 30.48 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "4bitalu"
+				(path "/1449d528-6a1c-4c98-a8ec-b6d1ba05be53"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
